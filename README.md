@@ -116,8 +116,11 @@ Response:
 Serves the uploaded image files.
 
 - **URL:** `/uploads/{filename}`
+
 - **Method:** `GET`
+  
 - **Response:**
+  
   - The image file.
 
 #### Example Request
