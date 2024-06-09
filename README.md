@@ -49,7 +49,7 @@ Uploads an image file to the asset server and returns the URL of the stored imag
 #### Example Request
 
 ```
-curl -X POST http://localhost:3000/api/storeImage -F "imageData=@/path/to/image.jpg"
+POST http://localhost:3000/api/storeImage -F "imageData=@/path/to/image.jpg"
 ```
 
 # Asset Server
